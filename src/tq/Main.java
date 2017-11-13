@@ -12,7 +12,7 @@ public class Main {
 	private static String url = "https://gcc.gnu.org/bugzilla/describecomponents.cgi";
 
 	public static void main(String[] args) {
-		logger.info("start");
+		logger.info(" start");
 		Document doc = MyJsoup.getDocument(url);
 		Element table = doc.select("table#choose_product").first();// <table id="choose_product">
 		Elements as = table.select("tr").select("a");
