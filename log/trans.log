@@ -1,2 +1,53 @@
-2017--11--13 22:56:09 (class:tq.Main)-(INFO) start
+2017--11--14 02:00:21 (class:tq.MyJsoup)-(ERROR) jousp err: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=78370
+ 2017--11--14 20:12:32 (class:tq.Main)-(INFO)  start
+ 2017--11--14 20:23:07 (class:tq.Main)-(INFO)  start
+ 2017--11--14 20:25:05 (class:tq.Main)-(INFO)  start
+ 2017--11--14 20:25:39 (class:tq.MyJsoup)-(ERROR) jousp err: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=30106
+ 2017--11--14 20:43:02 (class:tq.Main)-(INFO)  start
+ 2017--11--14 20:46:23 (class:tq.Main)-(INFO)  start
+ 2017--11--14 20:47:47 (class:tq.Main)-(INFO)  start
+ 2017--11--14 21:48:39 (class:tq.Main)-(INFO)  start
+ 2017--11--14 22:19:03 (class:tq.Main)-(INFO)  start
+ 2017--11--14 22:21:27 (class:tq.Main)-(INFO)  start
+ 2017--11--14 22:21:35 (class:db.DBUtils)-(ERROR) insert err
+ 2017--11--14 22:21:36 (class:db.DBUtils)-(ERROR) insert err
+ 2017--11--14 22:22:15 (class:tq.Main)-(INFO)  start
+ 2017--11--14 22:34:38 (class:tq.Main)-(INFO)  start
+ 2017--11--14 22:41:52 (class:tq.Main)-(INFO)  start
+ 2017--11--14 22:44:36 (class:tq.Main)-(INFO)  start
+ 2017--11--14 22:44:43 (class:db.DBUtils)-(ERROR) insert err
+ 2017--11--14 22:44:44 (class:db.DBUtils)-(ERROR) insert err
+ 2017--11--14 22:47:17 (class:tq.Main)-(INFO)  start
+ 2017--11--14 22:47:25 (class:db.DBUtils)-(ERROR) insert err
+ 2017--11--14 22:47:27 (class:db.DBUtils)-(ERROR) insert err
+ 2017--11--14 22:48:32 (class:tq.Main)-(INFO)  start
+ 2017--11--14 22:48:41 (class:db.DBUtils)-(ERROR) insert err
+ 2017--11--14 22:48:43 (class:db.DBUtils)-(ERROR) insert err
+ 2017--11--14 22:48:44 (class:db.DBUtils)-(ERROR) insert err
+ 2017--11--14 22:49:53 (class:tq.Main)-(INFO)  start
+ 2017--11--14 22:50:55 (class:db.DBUtils)-(ERROR) insert err
+ 2017--11--14 22:54:23 (class:tq.Main)-(INFO)  start
+ 2017--11--14 22:54:37 (class:db.DBUtils)-(ERROR) 23951 l:713 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--14 22:54:38 (class:db.DBUtils)-(ERROR) 24349 l:2842 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--14 22:54:39 (class:db.DBUtils)-(ERROR) 20630 l:765 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--14 22:54:41 (class:db.DBUtils)-(ERROR) 23932 l:485 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--14 22:54:42 (class:db.DBUtils)-(ERROR) 23933 l:120 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Incorrect datetime value: '2005-09-17 21:30:42 UTC' for column 'DescriptionTime' at row 1
+ 2017--11--14 22:54:43 (class:db.DBUtils)-(ERROR) 24002 l:666 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--14 22:54:44 (class:db.DBUtils)-(ERROR) 24116 l:1880 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--14 22:54:46 (class:db.DBUtils)-(ERROR) 16203 l:724 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--14 22:54:47 (class:db.DBUtils)-(ERROR) 24318 l:565 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--14 22:54:48 (class:db.DBUtils)-(ERROR) 24402 l:769 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--14 22:54:49 (class:db.DBUtils)-(ERROR) 21598 l:316 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Incorrect datetime value: '2005-05-16 01:21:10 UTC' for column 'DescriptionTime' at row 1
+ 2017--11--14 22:54:51 (class:db.DBUtils)-(ERROR) 23736 l:1141 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--14 22:54:52 (class:db.DBUtils)-(ERROR) 23790 l:218 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Incorrect datetime value: '2005-09-09 02:50:59 UTC' for column 'DescriptionTime' at row 1
+ 2017--11--14 22:54:53 (class:db.DBUtils)-(ERROR) 23690 l:631 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--14 22:56:43 (class:tq.Main)-(INFO)  start
+ 2017--11--14 22:56:51 (class:db.DBUtils)-(ERROR) 23951 l:713 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Incorrect datetime value: '2005-09-18 16:16:39 UTC' for column 'DescriptionTime' at row 1
+ 2017--11--14 22:56:52 (class:db.DBUtils)-(ERROR) 24349 l:2842 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Incorrect datetime value: '2005-10-13 11:06:55 UTC' for column 'DescriptionTime' at row 1
+ 2017--11--14 22:56:53 (class:db.DBUtils)-(ERROR) 20630 l:765 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Incorrect datetime value: '2005-03-24 22:13:00 UTC' for column 'DescriptionTime' at row 1
+ 2017--11--14 23:00:54 (class:tq.Main)-(INFO)  start
+ 2017--11--14 23:12:45 (class:tq.Main)-(INFO)  start
+ 2017--11--14 23:12:53 (class:db.DBUtils)-(ERROR) 23951 l:713 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--14 23:12:55 (class:db.DBUtils)-(ERROR) 24349 l:2842 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24349' for key 'PRIMARY'
+ 2017--11--14 23:18:33 (class:tq.Main)-(INFO)  start
  

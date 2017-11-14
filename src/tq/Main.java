@@ -5,6 +5,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import db.DBUtils;
+
 public class Main {
 	private static Logger logger = Logger.getLogger(Main.class.getName());
 	private static final String url0 = "https://gcc.gnu.org/bugzilla/";
@@ -29,14 +31,23 @@ public class Main {
 				doc = MyJsoup.getDocument(urlll);
 				Elements bugs = doc.select("tr.bz_bugitem");
 				for (Element bug : bugs) {
-//					System.out.println(bug.select("td").first().text());
-					String urlbug = bug.select("a").first().absUrl("href");
-					new BugPage(urlbug);
+					System.out.println(bug.select("td").first().text());
+					String id = bug.selectFirst("td.bz_id_column").text();
+					String product = bug.selectFirst("td.bz_product_column").text();
+					String component = bug.selectFirst("td.bz_component_column").text();
+//					Element href = bug.select("a").first();
+					Element href = bug.selectFirst("td.bz_short_desc_column");
+					String title = href.text();
+					String urlbug = href.selectFirst("a").absUrl("href");
+					BugPage bugbean = new BugPage(id,product,component,title,urlbug);
+					DBUtils.insertSimplebug(bugbean);
 				}
 
 			}
 			System.out.println();
 		}
+		
+		DBUtils.shut();
 	}
 
 }
