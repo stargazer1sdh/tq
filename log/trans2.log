@@ -1,0 +1,81 @@
+2017--11--15 01:00:35 (class:tq.Main)-(INFO)  start
+ 2017--11--15 01:00:58 (class:db.DBUtils)-(ERROR) 24349 l:2842 nl:15 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24349' for key 'PRIMARY'
+ 2017--11--15 01:01:03 (class:db.DBUtils)-(ERROR) 20630 l:765 nl:18 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '20630' for key 'PRIMARY'
+ 2017--11--15 01:01:09 (class:db.DBUtils)-(ERROR) 23951 l:713 nl:16 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23951' for key 'PRIMARY'
+ 2017--11--15 01:01:21 (class:db.DBUtils)-(ERROR) 16203 l:724 nl:13 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '16203' for key 'PRIMARY'
+ 2017--11--15 01:01:27 (class:db.DBUtils)-(ERROR) 24318 l:565 nl:18 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24318' for key 'PRIMARY'
+ 2017--11--15 01:01:32 (class:db.DBUtils)-(ERROR) 24402 l:769 nl:13 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24402' for key 'PRIMARY'
+ 2017--11--15 01:01:37 (class:db.DBUtils)-(ERROR) 21598 l:316 nl:10 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '21598' for key 'PRIMARY'
+ 2017--11--15 01:06:39 (class:tq.Main)-(INFO)  start
+ 2017--11--15 01:28:43 (class:tq.Main)-(INFO)  start
+ 2017--11--15 01:35:14 (class:tq.Main)-(INFO)  start
+ 2017--11--15 01:35:55 (class:db.DBUtils)-(ERROR) 23951 l:713 nl:16 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23951' for key 'PRIMARY'
+ 2017--11--15 01:36:20 (class:db.DBUtils)-(ERROR) 24349 l:2842 nl:15 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24349' for key 'PRIMARY'
+ 2017--11--15 01:36:28 (class:db.DBUtils)-(ERROR) 20630 l:765 nl:18 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '20630' for key 'PRIMARY'
+ 2017--11--15 01:36:34 (class:db.DBUtils)-(ERROR) 23790 l:218 nl:18 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23790' for key 'PRIMARY'
+ 2017--11--15 01:36:40 (class:db.DBUtils)-(ERROR) 23932 l:485 nl:15 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23932' for key 'PRIMARY'
+ 2017--11--15 01:36:45 (class:db.DBUtils)-(ERROR) 23933 l:120 nl:15 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23933' for key 'PRIMARY'
+ 2017--11--15 01:37:00 (class:db.DBUtils)-(ERROR) 24116 l:1880 nl:15 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24116' for key 'PRIMARY'
+ 2017--11--15 01:37:08 (class:db.DBUtils)-(ERROR) 16203 l:724 nl:13 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '16203' for key 'PRIMARY'
+ 2017--11--15 01:37:16 (class:db.DBUtils)-(ERROR) 24318 l:565 nl:18 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24318' for key 'PRIMARY'
+ 2017--11--15 01:37:26 (class:db.DBUtils)-(ERROR) 24402 l:769 nl:13 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24402' for key 'PRIMARY'
+ 2017--11--15 01:37:34 (class:db.DBUtils)-(ERROR) 21598 l:316 nl:10 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '21598' for key 'PRIMARY'
+ 2017--11--15 01:37:43 (class:db.DBUtils)-(ERROR) 23736 l:1141 nl:10 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23736' for key 'PRIMARY'
+ 2017--11--15 01:39:35 (class:db.DBUtils)-(ERROR) 27118 l:5943 nl:16 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--15 01:40:26 (class:db.DBUtils)-(ERROR) 36289 l:3164 nl:14 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 01:43:09 (class:db.DBUtils)-(ERROR) 27503 l:130 nl:10 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 01:43:58 (class:db.DBUtils)-(ERROR) 32082 l:5465 nl:13 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 01:51:57 (class:tq.Main)-(INFO)  start
+ 2017--11--15 01:52:05 (class:db.DBUtils)-(ERROR) 23951 l:713 nl:16 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23951' for key 'PRIMARY'
+ 2017--11--15 01:52:06 (class:db.DBUtils)-(ERROR) 24349 l:2842 nl:15 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24349' for key 'PRIMARY'
+ 2017--11--15 01:52:07 (class:db.DBUtils)-(ERROR) 20630 l:765 nl:18 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '20630' for key 'PRIMARY'
+ 2017--11--15 01:52:09 (class:db.DBUtils)-(ERROR) 23790 l:218 nl:18 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23790' for key 'PRIMARY'
+ 2017--11--15 01:52:10 (class:db.DBUtils)-(ERROR) 23932 l:485 nl:15 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23932' for key 'PRIMARY'
+ 2017--11--15 01:52:11 (class:db.DBUtils)-(ERROR) 23933 l:120 nl:15 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23933' for key 'PRIMARY'
+ 2017--11--15 01:52:12 (class:db.DBUtils)-(ERROR) 24002 l:666 nl:14 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24002' for key 'PRIMARY'
+ 2017--11--15 01:52:13 (class:db.DBUtils)-(ERROR) 24116 l:1880 nl:15 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24116' for key 'PRIMARY'
+ 2017--11--15 01:52:14 (class:db.DBUtils)-(ERROR) 16203 l:724 nl:13 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '16203' for key 'PRIMARY'
+ 2017--11--15 01:52:16 (class:db.DBUtils)-(ERROR) 24318 l:565 nl:18 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24318' for key 'PRIMARY'
+ 2017--11--15 01:52:17 (class:db.DBUtils)-(ERROR) 24402 l:769 nl:13 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24402' for key 'PRIMARY'
+ 2017--11--15 01:52:18 (class:db.DBUtils)-(ERROR) 21598 l:316 nl:10 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '21598' for key 'PRIMARY'
+ 2017--11--15 01:52:19 (class:db.DBUtils)-(ERROR) 23736 l:1141 nl:10 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23736' for key 'PRIMARY'
+ 2017--11--15 01:52:21 (class:db.DBUtils)-(ERROR) 23690 l:631 nl:13 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23690' for key 'PRIMARY'
+ 2017--11--15 01:52:22 (class:db.DBUtils)-(ERROR) 41116 l:949 nl:6 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '41116' for key 'PRIMARY'
+ 2017--11--15 01:52:23 (class:db.DBUtils)-(ERROR) 27118 l:5943 nl:16 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--15 01:52:24 (class:db.DBUtils)-(ERROR) 27972 l:1297 nl:16 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '27972' for key 'PRIMARY'
+ 2017--11--15 01:52:26 (class:db.DBUtils)-(ERROR) 36289 l:3164 nl:14 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 01:52:27 (class:db.DBUtils)-(ERROR) 29355 l:1721 nl:11 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '29355' for key 'PRIMARY'
+ 2017--11--15 01:52:29 (class:db.DBUtils)-(ERROR) 29399 l:913 nl:11 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '29399' for key 'PRIMARY'
+ 2017--11--15 01:52:30 (class:db.DBUtils)-(ERROR) 35369 l:249 nl:12 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '35369' for key 'PRIMARY'
+ 2017--11--15 01:52:31 (class:db.DBUtils)-(ERROR) 35409 l:197 nl:15 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '35409' for key 'PRIMARY'
+ 2017--11--15 01:52:32 (class:db.DBUtils)-(ERROR) 26648 l:1055 nl:15 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '26648' for key 'PRIMARY'
+ 2017--11--15 01:52:33 (class:db.DBUtils)-(ERROR) 29334 l:107 nl:16 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '29334' for key 'PRIMARY'
+ 2017--11--15 01:52:34 (class:db.DBUtils)-(ERROR) 40420 l:966 nl:12 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '40420' for key 'PRIMARY'
+ 2017--11--15 01:52:36 (class:db.DBUtils)-(ERROR) 46323 l:630 nl:8 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '46323' for key 'PRIMARY'
+ 2017--11--15 01:52:37 (class:db.DBUtils)-(ERROR) 30106 l:1786 nl:15 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '30106' for key 'PRIMARY'
+ 2017--11--15 01:52:38 (class:db.DBUtils)-(ERROR) 50520 l:2188 nl:19 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '50520' for key 'PRIMARY'
+ 2017--11--15 01:52:39 (class:db.DBUtils)-(ERROR) 27503 l:130 nl:10 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 01:52:40 (class:db.DBUtils)-(ERROR) 30557 l:599 nl:12 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '30557' for key 'PRIMARY'
+ 2017--11--15 01:52:42 (class:db.DBUtils)-(ERROR) 56229 l:1016 nl:16 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '56229' for key 'PRIMARY'
+ 2017--11--15 01:52:43 (class:db.DBUtils)-(ERROR) 27555 l:124 nl:4 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '27555' for key 'PRIMARY'
+ 2017--11--15 01:52:44 (class:db.DBUtils)-(ERROR) 30576 l:622 nl:11 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '30576' for key 'PRIMARY'
+ 2017--11--15 01:52:45 (class:db.DBUtils)-(ERROR) 57007 l:2256 nl:10 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '57007' for key 'PRIMARY'
+ 2017--11--15 01:52:48 (class:db.DBUtils)-(ERROR) 32082 l:5465 nl:13 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 01:53:19 (class:db.DBUtils)-(ERROR) 38803 l:5205 nl:3 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--15 01:53:40 (class:db.DBUtils)-(ERROR) 39747 l:291 nl:13 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 01:53:47 (class:db.DBUtils)-(ERROR) 24412 l:1170 nl:16 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 01:53:48 (class:db.DBUtils)-(ERROR) 23130 l:970 nl:18 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 01:53:53 (class:db.DBUtils)-(ERROR) 23189 l:40828 nl:5 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--15 01:54:01 (class:db.DBUtils)-(ERROR) 40763 l:1307 nl:11 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 01:54:02 (class:db.DBUtils)-(ERROR) 35522 l:16375 nl:19 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--15 01:54:06 (class:db.DBUtils)-(ERROR) 30670 l:507 nl:21 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 01:54:07 (class:db.DBUtils)-(ERROR) 39359 l:3268 nl:2 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--15 01:54:13 (class:db.DBUtils)-(ERROR) 39743 l:1210 nl:22 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 01:54:14 (class:db.DBUtils)-(ERROR) 44007 l:3179 nl:12 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--15 01:54:16 (class:db.DBUtils)-(ERROR) 58474 l:4703 nl:16 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--15 01:54:20 (class:db.DBUtils)-(ERROR) 55620 l:365 nl:18 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 01:54:53 (class:db.DBUtils)-(ERROR) 42605 l:532 nl:22 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 01:54:55 (class:db.DBUtils)-(ERROR) 32363 l:86 nl:21 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 01:54:56 (class:db.DBUtils)-(ERROR) 27564 l:773 nl:9 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 01:55:02 (class:db.DBUtils)-(ERROR) 36199 l:3321 nl:19 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 

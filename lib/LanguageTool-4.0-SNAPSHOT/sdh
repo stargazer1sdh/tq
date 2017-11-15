@@ -1,0 +1,9 @@
+apt install maven
+
+git clone --depth 5 https://github.com/languagetool-org/languagetool.git
+
+cd home/songdaohan/languagetool
+
+mvn clean test    ..but failed
+
+./build.sh languagetool-standalone package -DskipTests

@@ -56,7 +56,7 @@ public class DBUtils {
 			// stmt.executeUpdate(sql);
 			String sql = "INSERT INTO gcc_bug (id, title,Product,Component,Description,DescriptionTime,DescriptionPerson) VALUES (?,?,?,?,?,?,?)";
 			pstmt = conn.prepareStatement(sql);
-			int i=1;
+			int i = 1;
 			pstmt.setInt(i++, Integer.parseInt(bug.id));
 			pstmt.setString(i++, bug.title);
 			pstmt.setString(i++, bug.product);
@@ -64,11 +64,12 @@ public class DBUtils {
 			pstmt.setString(i++, bug.description);
 			pstmt.setTimestamp(i++, new Timestamp(bug.descriptionTime.getTime()));
 			pstmt.setString(i++, bug.descriptionPerson);
-			
+
 			System.out.println(pstmt.executeUpdate());
 		} catch (SQLException e) {
 			e.printStackTrace();
-			logger.error(bug.id+" l:"+bug.description.length()+" nl:"+bug.descriptionPerson.length()+" insert err:"+e);
+			logger.error(bug.id + " l:" + bug.description.length() + " nl:" + bug.descriptionPerson.length() + " til:"
+					+ bug.title.length() + " insert err:" + e);
 		} finally {
 			if (rs != null) {
 				try {

@@ -1,0 +1,36 @@
+2017--11--15 01:59:52 (class:tq.Main)-(INFO)  start
+ 2017--11--15 02:02:02 (class:db.DBUtils)-(ERROR) 23189 l:40828 nl:5 til:54 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--15 02:02:13 (class:db.DBUtils)-(ERROR) 35522 l:16375 nl:19 til:77 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--15 02:02:14 (class:db.DBUtils)-(ERROR) 30670 l:507 nl:21 til:42 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 02:02:23 (class:db.DBUtils)-(ERROR) 39743 l:1210 nl:22 til:33 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 02:03:04 (class:db.DBUtils)-(ERROR) 64523 l:2335 nl:22 til:34 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 02:03:21 (class:db.DBUtils)-(ERROR) 29608 l:7614 nl:4 til:76 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--15 02:03:48 (class:db.DBUtils)-(ERROR) 33783 l:20021 nl:18 til:32 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--15 02:04:43 (class:db.DBUtils)-(ERROR) 43717 l:2448 nl:22 til:83 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 02:05:04 (class:db.DBUtils)-(ERROR) 27213 l:1543 nl:21 til:58 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 02:05:37 (class:db.DBUtils)-(ERROR) 42605 l:532 nl:22 til:36 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 02:05:39 (class:db.DBUtils)-(ERROR) 32363 l:86 nl:21 til:51 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 02:05:58 (class:db.DBUtils)-(ERROR) 42606 l:656 nl:22 til:66 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 02:06:54 (class:db.DBUtils)-(ERROR) 28538 l:296 nl:22 til:41 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 02:07:47 (class:tq.Main)-(INFO)  start
+ 2017--11--15 02:40:10 (class:db.DBUtils)-(ERROR) 46374 l:1018 nl:40 til:24 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 02:43:15 (class:db.DBUtils)-(ERROR) 72764 l:3232 nl:11 til:180 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 02:46:49 (class:db.DBUtils)-(ERROR) 71450 l:3654 nl:11 til:190 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 03:05:29 (class:db.DBUtils)-(ERROR) 77554 l:3075 nl:11 til:162 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 03:06:49 (class:db.DBUtils)-(ERROR) 51671 l:1110 nl:34 til:95 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 03:07:41 (class:db.DBUtils)-(ERROR) 54278 l:491 nl:13 til:178 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 03:20:28 (class:db.DBUtils)-(ERROR) 78344 l:2211 nl:13 til:167 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 03:31:01 (class:db.DBUtils)-(ERROR) 77440 l:408 nl:35 til:44 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 03:58:47 (class:db.DBUtils)-(ERROR) 53077 l:712 nl:16 til:161 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 04:03:35 (class:db.DBUtils)-(ERROR) 56325 l:56836 nl:11 til:38 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--15 04:06:50 (class:db.DBUtils)-(ERROR) 53674 l:41410 nl:3 til:37 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--15 04:06:54 (class:db.DBUtils)-(ERROR) 67102 l:55623 nl:14 til:40 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--15 04:13:33 (class:db.DBUtils)-(ERROR) 77726 l:2524 nl:7 til:171 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 04:33:12 (class:db.DBUtils)-(ERROR) 82636 l:624 nl:32 til:48 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 04:53:12 (class:db.DBUtils)-(ERROR) 62001 l:59515 nl:13 til:24 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--15 05:00:03 (class:db.DBUtils)-(ERROR) 46175 l:1007 nl:12 til:163 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 05:16:44 (class:db.DBUtils)-(ERROR) 58801 l:3531 nl:3 til:163 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'title' at row 1
+ 2017--11--15 05:22:25 (class:db.DBUtils)-(ERROR) 37611 l:3365 nl:31 til:70 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'DescriptionPerson' at row 1
+ 2017--11--15 05:39:33 (class:db.DBUtils)-(ERROR) 64400 l:48512 nl:16 til:63 insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'Description' at row 1
+ 2017--11--15 06:11:49 (class:db.DBUtils)-(ERROR) 82985 l:851 nl:9 til:74 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '82985' for key 'PRIMARY'
+ 
