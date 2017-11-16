@@ -35,12 +35,13 @@ public class Main {
 					String id = bug.selectFirst("td.bz_id_column").text();
 					String product = bug.selectFirst("td.bz_product_column").text();
 					String component = bug.selectFirst("td.bz_component_column").text();
-//					Element href = bug.select("a").first();
 					Element href = bug.selectFirst("td.bz_short_desc_column");
 					String title = href.text();
 					String urlbug = href.selectFirst("a").absUrl("href");
 					BugPage bugbean = new BugPage(id,product,component,title,urlbug);
-					DBUtils.insertSimplebug(bugbean);
+//					DBUtils.insertSimplebug(bugbean);
+//					DBUtils.insertbug$cs(bugbean);
+					DBUtils.insertbug$cs$as(bugbean);
 				}
 
 			}

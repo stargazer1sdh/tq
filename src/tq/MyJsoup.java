@@ -16,7 +16,7 @@ public class MyJsoup {
 			return conn.get();
 		} catch (IOException e) {
 			e.printStackTrace();
-			logger.error("jousp err: "+url);
+			logger.error(url +" jousp err: "+e);
 			try {
 				Thread.sleep(10000);
 			} catch (InterruptedException e1) {

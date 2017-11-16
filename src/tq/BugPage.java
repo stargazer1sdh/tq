@@ -1,5 +1,6 @@
 package tq;
 
+import java.io.InputStream;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -10,9 +11,11 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
 public class BugPage {
 	private static DateFormat tf= new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+	private static DateFormat tf2= new SimpleDateFormat("yyyy-MM-dd HH:mm");
 	
 	public String url;
 	public String id;
@@ -45,9 +48,48 @@ public class BugPage {
 		}
 		description = dese.select(".bz_comment_text").first().text();
 		
+		Elements cs = doc.select(".bz_comment");
+		int csl = cs.size();
+		for(int i=1;i<csl;++i) {
+			Element c = cs.get(i);
+			String text = c.select(".bz_comment_text").first().text();
+			Date time = null;
+			try {
+				time = tf.parse(c.select(".bz_comment_time").first().text());
+			} catch (ParseException e) {
+				e.printStackTrace();
+				logger.error(id+"co timeparse err");
+			}
+			String person = c.select(".bz_comment_user").first().text();
+			comments.add(new Comment(id,text,time,person));
+		}
+		
+		Elements as = doc.selectFirst("#attachment_table").select("tr").not("#a0").not(".bz_attach_footer").not("bz_tr_obsolete");
+		//27972    bz_tr_obsolete
+		for(Element a : as) {
+			Element td = a.selectFirst("td");
+			Element contentE = td.selectFirst("a");
+			String filename = contentE.text();
+//			Document doc2 = MyJsoup.getDocument(contentE.absUrl("href"));
+//			String text = doc2.text();
+			InputStream text = Attblob.getInput(contentE.absUrl("href"));
+			
+			Element span = td.selectFirst(".bz_attach_extra_info");
+			String type = span.text();
+			Date time = null;
+			try {
+				time = tf2.parse(span.select("a").first().text());
+			} catch (ParseException e) {
+				e.printStackTrace();
+				logger.error(id+" att timeparse err");
+			}
+			String person = span.selectFirst(".vcard").text();
+			attachments.add(new Attachment(id, text, time, person, filename,type));
+		}
 	}
 
-	List<Comment> comments = new ArrayList<Comment>();
+	public List<Comment> comments = new ArrayList<Comment>();
+	public List<Attachment> attachments = new ArrayList<Attachment>();
 	
 	private static Logger logger = Logger.getLogger(BugPage.class.getName());
 }
