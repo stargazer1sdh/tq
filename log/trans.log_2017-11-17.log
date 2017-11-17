@@ -1,0 +1,162 @@
+2017--11--16 01:13:50 (class:tq.Main)-(INFO)  start
+ 2017--11--16 01:26:45 (class:tq.Main)-(INFO)  start
+ 2017--11--16 01:42:28 (class:db.DBUtils)-(ERROR) co H.J. Lu of 81869 l:20511 nl:7insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 01:43:14 (class:db.DBUtils)-(ERROR) co Dennis Clarke of 55293 l:32361 nl:13insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 01:43:14 (class:db.DBUtils)-(ERROR) co Dennis Clarke of 55293 l:31763 nl:13insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 01:46:21 (class:db.DBUtils)-(ERROR) co Matthias Klose of 53468 l:22069 nl:14insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 02:32:49 (class:db.DBUtils)-(ERROR) co dirkneukirchen of 61785 l:20202 nl:14insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 02:37:17 (class:db.DBUtils)-(ERROR) co Eric Gallager of 54052 l:20140 nl:13insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 03:20:21 (class:db.DBUtils)-(ERROR) co Thomas Koenig of 37577 l:25761 nl:13insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 03:20:21 (class:db.DBUtils)-(ERROR) co Thomas Koenig of 37577 l:34040 nl:13insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 03:27:34 (class:db.DBUtils)-(ERROR) co Jan Hubicka of 65483 l:22568 nl:11insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 03:29:10 (class:db.DBUtils)-(ERROR) co Thomas Koenig of 32770 l:36367 nl:13insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 03:29:42 (class:db.DBUtils)-(ERROR) co RM Beer of 67897 l:40901 nl:7insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 03:37:14 (class:db.DBUtils)-(ERROR) co Benjamin Kosnik of 28457 l:59628 nl:15insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 03:46:24 (class:db.DBUtils)-(ERROR) co lucier of 64928 l:24201 nl:6insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 03:46:24 (class:db.DBUtils)-(ERROR) co lucier of 64928 l:20285 nl:6insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 03:49:19 (class:db.DBUtils)-(ERROR) co Joost VandeVondele of 38474 l:20423 nl:18insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 04:01:38 (class:db.DBUtils)-(ERROR) co Jorn Wolfgang Rennecke of 44566 l:40687 nl:22insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 04:33:16 (class:db.DBUtils)-(ERROR) co mhessel of 10778 l:75167 nl:7insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 04:33:26 (class:db.DBUtils)-(ERROR) co Wolfgang Bangerth of 10799 l:81742 nl:17insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 04:37:14 (class:db.DBUtils)-(ERROR) co Martin Husemann of 58442 l:25613 nl:15insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 04:41:37 (class:db.DBUtils)-(ERROR) co Joseph S. Myers of 32187 l:26690 nl:15insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 04:48:22 (class:tq.MyJsoup)-(ERROR) jousp err: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=44037
+ 2017--11--16 04:50:14 (class:db.DBUtils)-(ERROR) co Satoshi Adachi of 47072 l:21068 nl:14insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 05:17:57 (class:db.DBUtils)-(ERROR) co lucier of 26854 l:22590 nl:6insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 05:23:33 (class:db.DBUtils)-(ERROR) co Markus Trippelsdorf of 78180 l:27040 nl:19insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 13:50:23 (class:tq.Main)-(INFO)  start
+ 2017--11--16 13:50:34 (class:db.DBUtils)-(ERROR) 23951 l:713 nl:16 til:30 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23951' for key 'PRIMARY'
+ 2017--11--16 13:50:35 (class:db.DBUtils)-(ERROR) 24349 l:2842 nl:15 til:50 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24349' for key 'PRIMARY'
+ 2017--11--16 13:51:12 (class:tq.Main)-(INFO)  start
+ 2017--11--16 15:45:50 (class:tq.Main)-(INFO)  start
+ 2017--11--16 15:48:44 (class:tq.Main)-(INFO)  start
+ 2017--11--16 15:54:29 (class:tq.Main)-(INFO)  start
+ 2017--11--16 16:04:04 (class:tq.Main)-(INFO)  start
+ 2017--11--16 16:04:12 (class:tq.BugPage)-(ERROR) 23951att timeparse err
+ 2017--11--16 16:04:13 (class:tq.BugPage)-(ERROR) 23951att timeparse err
+ 2017--11--16 16:04:14 (class:tq.BugPage)-(ERROR) 23951att timeparse err
+ 2017--11--16 16:05:55 (class:tq.Main)-(INFO)  start
+ 2017--11--16 16:08:29 (class:tq.Main)-(INFO)  start
+ 2017--11--16 16:08:37 (class:db.DBUtils)-(ERROR) 24349 l:2842 nl:15 til:50 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24349' for key 'PRIMARY'
+ 2017--11--16 16:08:38 (class:db.DBUtils)-(ERROR) 20630 l:765 nl:18 til:50 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '20630' for key 'PRIMARY'
+ 2017--11--16 16:08:58 (class:db.DBUtils)-(ERROR) 23951 l:713 nl:16 til:30 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23951' for key 'PRIMARY'
+ 2017--11--16 16:09:00 (class:db.DBUtils)-(ERROR) 24402 l:769 nl:13 til:74 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24402' for key 'PRIMARY'
+ 2017--11--16 16:09:01 (class:db.DBUtils)-(ERROR) 21598 l:316 nl:10 til:34 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '21598' for key 'PRIMARY'
+ 2017--11--16 16:09:02 (class:db.DBUtils)-(ERROR) 23736 l:1141 nl:10 til:70 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23736' for key 'PRIMARY'
+ 2017--11--16 16:09:03 (class:db.DBUtils)-(ERROR) 23790 l:218 nl:18 til:40 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23790' for key 'PRIMARY'
+ 2017--11--16 16:09:17 (class:db.DBUtils)-(ERROR) 23932 l:485 nl:15 til:50 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23932' for key 'PRIMARY'
+ 2017--11--16 16:09:20 (class:db.DBUtils)-(ERROR) 23933 l:120 nl:15 til:38 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23933' for key 'PRIMARY'
+ 2017--11--16 16:09:21 (class:db.DBUtils)-(ERROR) 24002 l:666 nl:14 til:28 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24002' for key 'PRIMARY'
+ 2017--11--16 16:09:24 (class:db.DBUtils)-(ERROR) 24116 l:1880 nl:15 til:29 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24116' for key 'PRIMARY'
+ 2017--11--16 16:09:31 (class:db.DBUtils)-(ERROR) 16203 l:724 nl:13 til:47 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '16203' for key 'PRIMARY'
+ 2017--11--16 16:09:32 (class:db.DBUtils)-(ERROR) 24318 l:565 nl:18 til:34 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24318' for key 'PRIMARY'
+ 2017--11--16 16:09:33 (class:db.DBUtils)-(ERROR) 23690 l:631 nl:13 til:44 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23690' for key 'PRIMARY'
+ 2017--11--16 16:59:31 (class:tq.Main)-(INFO)  start
+ 2017--11--16 17:02:09 (class:tq.Main)-(INFO)  start
+ 2017--11--16 17:02:22 (class:db.DBUtils)-(ERROR) att David Lichteblau of 23951 l:500 til:18 nl:16insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' VALUES (23951,'gnu.testlet.java.awt.Color.constants gnu.testlet.java.awt.Color.' at line 1
+ 2017--11--16 17:02:22 (class:db.DBUtils)-(ERROR) att David Lichteblau of 23951 l:1764 til:28 nl:16insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' VALUES (23951,': david@xenon:~/src/mauve; ~/usr/jamvm-cvs/bin/jamvm gnu.testlet' at line 1
+ 2017--11--16 17:02:22 (class:db.DBUtils)-(ERROR) att David Lichteblau of 23951 l:692 til:39 nl:16insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' VALUES (23951,'Index: native/jni/gtk-peer/gnu_java_awt_peer_gtk_GtkComponentPee' at line 1
+ 2017--11--16 17:02:25 (class:tq.MyJsoup)-(ERROR) jousp err: https://gcc.gnu.org/bugzilla/attachment.cgi?id=9834
+ 2017--11--16 17:08:31 (class:tq.Main)-(INFO)  start
+ 2017--11--16 17:15:06 (class:db.DBUtils)-(ERROR) att David Lichteblau of 23951 l:500 til:18 nl:16insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' VALUES (23951,'gnu.testlet.java.awt.Color.constants gnu.testlet.java.awt.Color.' at line 1
+ 2017--11--16 17:15:06 (class:db.DBUtils)-(ERROR) att David Lichteblau of 23951 l:1764 til:28 nl:16insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' VALUES (23951,': david@xenon:~/src/mauve; ~/usr/jamvm-cvs/bin/jamvm gnu.testlet' at line 1
+ 2017--11--16 17:15:06 (class:db.DBUtils)-(ERROR) att David Lichteblau of 23951 l:692 til:39 nl:16insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' VALUES (23951,'Index: native/jni/gtk-peer/gnu_java_awt_peer_gtk_GtkComponentPee' at line 1
+ 2017--11--16 17:19:44 (class:tq.Main)-(INFO)  start
+ 2017--11--16 17:25:08 (class:tq.Main)-(INFO)  start
+ 2017--11--16 17:25:27 (class:tq.MyJsoup)-(ERROR) jousp err: https://gcc.gnu.org/bugzilla/attachment.cgi?id=9834
+ 2017--11--16 17:25:38 (class:tq.MyJsoup)-(ERROR) jousp err: https://gcc.gnu.org/bugzilla/attachment.cgi?id=9834
+ 2017--11--16 17:25:50 (class:tq.MyJsoup)-(ERROR) jousp err: https://gcc.gnu.org/bugzilla/attachment.cgi?id=9834
+ 2017--11--16 17:26:01 (class:tq.MyJsoup)-(ERROR) jousp err: https://gcc.gnu.org/bugzilla/attachment.cgi?id=9834
+ 2017--11--16 17:51:18 (class:tq.Main)-(INFO)  start
+ 2017--11--16 17:56:57 (class:db.DBUtils)-(ERROR) att Norman Hendrich of 24116 til:61 nl:15insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--16 18:03:22 (class:tq.Main)-(INFO)  start
+ 2017--11--16 18:03:52 (class:tq.Main)-(INFO)  start
+ 2017--11--16 18:04:20 (class:db.DBUtils)-(ERROR) att Norman Hendrich of 24116 til:61 nl:15insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'filename' at row 1
+ 2017--11--16 18:04:22 (class:db.DBUtils)-(ERROR) att Norman Hendrich of 24116 til:63 nl:15insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'filename' at row 1
+ 2017--11--16 18:06:53 (class:tq.Main)-(INFO)  start
+ 2017--11--16 18:08:00 (class:db.DBUtils)-(ERROR) att Bernhard Reiter of 28832 til:83 nl:15insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'filename' at row 1
+ 2017--11--16 18:08:30 (class:db.DBUtils)-(ERROR) att Scott Gilbertson of 56229 til:95 nl:16insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'filename' at row 1
+ 2017--11--16 18:10:19 (class:db.DBUtils)-(ERROR) att Pierre Mobde of 44008 til:120 nl:12insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'filename' at row 1
+ 2017--11--16 18:10:19 (class:db.DBUtils)-(ERROR) att Pierre Mobde of 44008 til:120 nl:12insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'filename' at row 1
+ 2017--11--16 18:24:08 (class:db.DBUtils)-(ERROR) att David Gressett of 62193 til:136 nl:14insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'filename' at row 1
+ 
+ 
+ 12672
+ 2017--11--16 19:27:47 (class:tq.Main)-(INFO)  start
+ 52464
+ 2017--11--16 21:35:15 (class:tq.Main)-(INFO)  start
+ 2017--11--16 22:48:31 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=50359 jousp err: java.net.SocketTimeoutException: Read timed out
+ 
+ 46147
+ 
+ 2017--11--16 23:50:08 (class:tq.Main)-(INFO)  start
+ 2017--11--16 23:51:29 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=24116 jousp err: java.net.SocketTimeoutException: Read timeout
+ 
+ 
+ 22020
+50000	50000
+Java HotSpot(TM) 64-Bit Server VM warning: INFO: os::commit_memory(0x00007fec4cfb9000, 65536, 1) failed; error='Not enough space' (errno=12)
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 65536 bytes for committing reserved memory.
+# An error report file with more information is saved as:
+# /root/eclipse-workspace/tq/hs_err_pid15794.log
+#
+# Compiler replay data is saved as:
+# /root/eclipse-workspace/tq/replay_pid15794.log
+ 2017--11--17 01:54:53 (class:tq.Main)-(INFO)  start
+ 2017--11--17 04:10:51 (class:db.DBUtils)-(ERROR) att for2008 of 79440 til:178 nl:7insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'filename' at row 1
+ 2017--11--17 04:25:30 (class:db.DBUtils)-(ERROR) att for2008 of 79426 til:145 nl:7insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'filename' at row 1
+ 2017--11--17 05:05:20 (class:db.DBUtils)-(ERROR) att Matt Hargett of 55500 til:145 nl:12insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'filename' at row 1
+ 2017--11--17 05:23:40 (class:db.DBUtils)-(ERROR) att Matt Hargett of 55498 til:145 nl:12insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'filename' at row 1
+ 2017--11--17 05:30:23 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=24434 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 05:53:49 (class:db.DBUtils)-(ERROR) att xqr4n54r1 of 78932 til:195 nl:9insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'filename' at row 1
+ 2017--11--17 05:53:49 (class:db.DBUtils)-(ERROR) att xqr4n54r1 of 78932 til:175 nl:9insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'filename' at row 1
+ 2017--11--17 06:00:23 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=81025 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 06:02:12 (class:db.DBUtils)-(ERROR) att John Peyton of 49148 til:169 nl:11insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'filename' at row 1
+ 2017--11--17 06:02:12 (class:db.DBUtils)-(ERROR) att John Peyton of 49148 til:157 nl:11insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'filename' at row 1
+ 2017--11--17 06:12:10 (class:db.DBUtils)-(ERROR) co mhessel of 10778 l:75167 nl:7insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--17 06:12:17 (class:db.DBUtils)-(ERROR) co Wolfgang Bangerth of 10799 l:81742 nl:17insert err:com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'text' at row 1
+ 2017--11--17 08:28:48 (class:tq.Main)-(INFO)  start
+ 2017--11--17 11:45:25 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=31738 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 12:30:21 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=40987 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 12:32:10 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=71022 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 12:39:03 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=81625 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 12:39:28 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=81625 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 12:39:54 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=81625 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 12:40:19 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=81625 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 12:41:06 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=49357 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 12:45:40 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=66890 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 12:48:51 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=32629 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 12:51:23 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=81387 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 13:00:26 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=20094 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 13:00:52 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=20094 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 13:01:17 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=20094 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 13:01:43 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=20094 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 13:02:08 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=20094 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 13:11:47 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=67638 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 13:12:25 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=46187 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 13:12:51 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=46187 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 13:13:17 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=46187 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 13:53:13 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=63359 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 13:53:38 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=63359 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 14:44:18 (class:tq.Main)-(INFO)  start
+ 2017--11--17 14:44:26 (class:db.DBUtils)-(ERROR) 24349 l:2842 nl:15 til:50 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '24349' for key 'PRIMARY'
+ 2017--11--17 14:44:28 (class:db.DBUtils)-(ERROR) 20630 l:765 nl:18 til:50 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '20630' for key 'PRIMARY'
+ 2017--11--17 14:44:35 (class:db.DBUtils)-(ERROR) 23951 l:713 nl:16 til:30 insert err:com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '23951' for key 'PRIMARY'
+ 2017--11--17 14:45:45 (class:tq.Main)-(INFO)  start
+ 2017--11--17 15:01:13 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=30991 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 15:01:39 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=30991 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 16:21:33 (class:db.DBUtils)-(ERROR) att Edek Pienkowski of 39466 til:74 nl:15insert err:java.sql.SQLException: Error reading from InputStream java.net.SocketException
+ 2017--11--17 16:53:29 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=54130 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 17:39:02 (class:tq.Main)-(INFO)  start
+ 2017--11--17 17:43:32 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=44208 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 17:43:58 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=44208 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 17:53:44 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=34620 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 17:54:23 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=29500 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 17:54:48 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=29500 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 18:40:56 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=80140 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 18:52:04 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=61785 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 22:02:47 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=77608 jousp err: java.net.SocketTimeoutException: Read timed out
+ 2017--11--17 23:29:51 (class:tq.MyJsoup)-(ERROR) https://gcc.gnu.org/bugzilla/show_bug.cgi?id=35294 jousp err: java.net.SocketTimeoutException: Read timed out
+ 
