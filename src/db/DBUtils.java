@@ -5,11 +5,14 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.sql.Timestamp;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
 
+import la.Bug;
 import tq.Attachment;
 import tq.BugPage;
 import tq.Comment;
@@ -189,6 +192,110 @@ public class DBUtils {
 		}
 	}
 
-	
+	public static List<Bug> queryBugsBy(String product, String component) {
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		List<Bug> bugs = new ArrayList<Bug>();
+		String sql = "SELECT id,Description FROM gcc_bug where Product=? and Component = ?";
+		try {
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setString(1, product);
+			pstmt.setString(2, component);
+			rs = pstmt.executeQuery();
+		    while(rs.next()) {
+		    	bugs.add(new Bug(rs.getInt(1), rs.getString(2)));
+		    }
+		    return bugs;
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+			logger.error("db query "+e);
+			return null;
+		} finally {
+			if (rs != null) {
+				try {
+					rs.close();
+				} catch (SQLException sqlEx) {
+				} // ignore
+				rs = null;
+			}
+			if (pstmt != null) {
+				try {
+					pstmt.close();
+				} catch (SQLException sqlEx) {
+				} // ignore
+				pstmt = null;
+			}
+		}
+	}
+	public static List<Bug> queryBugs() {
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		List<Bug> bugs = new ArrayList<Bug>();
+		String sql = "SELECT id,Description FROM gcc_bug";
+		try {
+			pstmt = conn.prepareStatement(sql);
+			rs = pstmt.executeQuery();
+		    while(rs.next()) {
+		    	bugs.add(new Bug(rs.getInt(1), rs.getString(2)));
+		    }
+		    return bugs;
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+			logger.error("db query "+e);
+			return null;
+		} finally {
+			if (rs != null) {
+				try {
+					rs.close();
+				} catch (SQLException sqlEx) {
+				} // ignore
+				rs = null;
+			}
+			if (pstmt != null) {
+				try {
+					pstmt.close();
+				} catch (SQLException sqlEx) {
+				} // ignore
+				pstmt = null;
+			}
+		}
+	}
 
+	public static void updateCodeBy(int id, String code) {
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+
+		String sql = "UPDATE gcc_bug SET code = ? WHERE id = ?";
+		try {
+			pstmt = conn.prepareStatement(sql);
+			int i = 1;
+			pstmt.setString(i++, code);
+			pstmt.setInt(i++, id);
+
+			if(pstmt.executeUpdate()==0) {
+				logger.error("update nothing id@"+id +" code:"+code);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+			logger.error("update err id@"+id +"codel:"+code.length()+"  "+ e);
+		} finally {
+			if (rs != null) {
+				try {
+					rs.close();
+				} catch (SQLException sqlEx) {
+				} // ignore
+				rs = null;
+			}
+			if (pstmt != null) {
+				try {
+					pstmt.close();
+				} catch (SQLException sqlEx) {
+				} // ignore
+				pstmt = null;
+			}
+		}
+	}
+	
 }
