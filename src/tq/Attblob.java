@@ -19,7 +19,7 @@ public class Attblob {
 			uri.setConnectTimeout(50000);
 			uri.setReadTimeout(50000);
 			is = uri.getInputStream();
-			System.out.println(uri.getReadTimeout() +"\t"+uri.getConnectTimeout());
+//			System.out.println(uri.getReadTimeout() +"\t"+uri.getConnectTimeout());
 			return is;
 		} catch (IOException e) {
 			e.printStackTrace();

@@ -31,17 +31,34 @@ public class Main {
 				doc = MyJsoup.getDocument(urlll);
 				Elements bugs = doc.select("tr.bz_bugitem");
 				for (Element bug : bugs) {
-					System.out.println(bug.select("td").first().text());
+//					System.out.println(bug.select("td").first().text());
 					String id = bug.selectFirst("td.bz_id_column").text();
 					String product = bug.selectFirst("td.bz_product_column").text();
 					String component = bug.selectFirst("td.bz_component_column").text();
 					Element href = bug.selectFirst("td.bz_short_desc_column");
 					String title = href.text();
 					String urlbug = href.selectFirst("a").absUrl("href");
-					BugPage bugbean = new BugPage(id,product,component,title,urlbug);
+					
+					String assignee = bug.selectFirst("td.bz_assigned_to_column").text();
+					String status = bug.selectFirst("td.bz_bug_status_column").text();
+					
+					BugPage bugbeanSimple = new BugPage(id,assignee,status);
+					String res = DBUtils.choosesaveOrUpdate(bugbeanSimple);
+					if(DBUtils.CHOICE_SAVE.equals(res)) {// insert
+						System.out.println(id+"\tinsert");
+						logger.info(id+"\tinsert");
+						BugPage bugbean = new BugPage(id,product,component,assignee,status,title,urlbug,BugPage.WITHCA);
 //					DBUtils.insertSimplebug(bugbean);
 //					DBUtils.insertbug$cs(bugbean);
-					DBUtils.insertbug$cs$as(bugbean);
+						DBUtils.insertbug$cs$as(bugbean);
+					}else if(DBUtils.CHOICE_UPDATE.equals(res)){  //only update bug,not comments or attachments
+						System.out.println(id+"\tupdate");
+						logger.info(id+"\tupdate");
+						BugPage bugbean = new BugPage(id,product,component,assignee,status,title,urlbug,BugPage.NOCA);
+						DBUtils.updatebug(bugbean);
+					}else {
+						System.out.println(id);
+					}
 				}
 
 			}

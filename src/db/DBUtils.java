@@ -18,6 +18,9 @@ import tq.BugPage;
 import tq.Comment;
 
 public class DBUtils {
+	public static final String CHOICE_SAVE = "SAVE";
+	public static final String CHOICE_UPDATE = "UPDATE";
+	public static final String CHOICE_NONE = "NONE";
 	private static Logger logger = Logger.getLogger(DBUtils.class.getName());
 	private static Connection conn = null;
 	static {
@@ -44,24 +47,17 @@ public class DBUtils {
 		return flag;
 	}
 
-	public static int insertSimplebug(BugPage bug) {
-		// Statement stmt = null;
+	private static int insertSimplebug(BugPage bug) {
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
 
 		try {
-			// stmt = conn.createStatement();
-			// String sql = new StringBuilder("INSERT INTO gcc_bug (id,
-			// title,Product,Component,Description,DescriptionTime) VALUES
-			// (").append(bug.id)
-			// .append(",").append(bug.title).append(",").append(bug.product).append(",").append(bug.component).append(",")
-			// .append(bug.description).append(",").append(bug.descriptionTime)
-			// .append(")").toString();
-			// stmt.executeUpdate(sql);
-			String sql = "INSERT INTO gcc_bug (id, title,Product,Component,Description,DescriptionTime,DescriptionPerson) VALUES (?,?,?,?,?,?,?)";
+			String sql = "INSERT INTO gcc_bug (id, Assignee,Status,title,Product,Component,Description,DescriptionTime,DescriptionPerson) VALUES (?,?,?,?,?,?,?,?,?)";
 			pstmt = conn.prepareStatement(sql);
 			int i = 1;
 			pstmt.setInt(i++, Integer.parseInt(bug.id));
+			pstmt.setString(i++, bug.assignee);
+			pstmt.setString(i++, bug.status);
 			pstmt.setString(i++, bug.title);
 			pstmt.setString(i++, bug.product);
 			pstmt.setString(i++, bug.component);
@@ -128,7 +124,7 @@ public class DBUtils {
 			}
 		}
 	}
-	public static void insertbug$cs(BugPage bugbean) {
+	private static void insertbug$cs(BugPage bugbean) {
 		insertSimplebug(bugbean);
 		List<Comment> cs = bugbean.comments;
 		for (Comment c : cs) {
@@ -297,5 +293,94 @@ public class DBUtils {
 			}
 		}
 	}
-	
+
+	//to decide save or update or do nothing
+	public static String choosesaveOrUpdate(BugPage simplebug) {
+		BugPage existbug = querySimpleBugPage(simplebug);
+		if(existbug == null) {
+			return CHOICE_SAVE;
+		}else if(!simplebug.equals(existbug)) {
+			return CHOICE_UPDATE;
+		}else
+			return CHOICE_NONE;
+	}
+	private static BugPage querySimpleBugPage(BugPage simplebug) {
+		BugPage res = null;
+		
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		String sql = "SELECT Assignee,Status FROM gcc_bug where id = ?";
+		try {
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, Integer.parseInt(simplebug.id));
+			rs = pstmt.executeQuery();
+		    if(rs.next()) {
+		    	res = new BugPage(simplebug.id, rs.getString(1), rs.getString(2));
+		    }
+		    return res;
+		}
+		catch (SQLException e) {
+			e.printStackTrace();
+			logger.error("db querySimpleBugPage "+e);
+			return null;
+		} finally {
+			if (rs != null) {
+				try {
+					rs.close();
+				} catch (SQLException sqlEx) {
+				} // ignore
+				rs = null;
+			}
+			if (pstmt != null) {
+				try {
+					pstmt.close();
+				} catch (SQLException sqlEx) {
+				} // ignore
+				pstmt = null;
+			}
+		}
+	}
+
+	public static void updatebug(BugPage bugbean) {
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+
+		String sql = "UPDATE gcc_bug SET Assignee = ?,Status = ?,title = ?,Product = ?,Component = ?,Description = ?,"
+				+ "DescriptionTime = ?,DescriptionPerson = ? WHERE id = ?";
+		try {
+			pstmt = conn.prepareStatement(sql);
+			int i = 1;
+			pstmt.setString(i++, bugbean.assignee);
+			pstmt.setString(i++, bugbean.status);
+			pstmt.setString(i++, bugbean.title);
+			pstmt.setString(i++, bugbean.product);
+			pstmt.setString(i++, bugbean.component);
+			pstmt.setString(i++, bugbean.description);
+			pstmt.setTimestamp(i++, new Timestamp(bugbean.descriptionTime.getTime()));
+			pstmt.setString(i++, bugbean.descriptionPerson);
+			pstmt.setInt(i++, Integer.parseInt(bugbean.id));
+
+			if(pstmt.executeUpdate()==0) {
+				logger.error("just update nothing id@"+bugbean.id);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+			logger.error("just update err id@"+bugbean.id+"  "+ e);
+		} finally {
+			if (rs != null) {
+				try {
+					rs.close();
+				} catch (SQLException sqlEx) {
+				} // ignore
+				rs = null;
+			}
+			if (pstmt != null) {
+				try {
+					pstmt.close();
+				} catch (SQLException sqlEx) {
+				} // ignore
+				pstmt = null;
+			}
+		}
+	}
 }

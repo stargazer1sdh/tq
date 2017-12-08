@@ -1,0 +1,23 @@
+2017--12--02 20:36:39 (class:db.DBUtils)-(ERROR) update err id@576  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
+ 2017--12--02 20:40:47 (class:la.Main)-(INFO) la start
+ 2017--12--02 20:41:15 (class:db.DBUtils)-(ERROR) update err id@6065codel:1764  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
+ 2017--12--02 20:41:35 (class:db.DBUtils)-(ERROR) update err id@11807codel:1079  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
+ 2017--12--02 20:48:41 (class:la.Main)-(INFO) la start
+ 2017--12--02 20:50:15 (class:la.Main)-(INFO) la start
+ 2017--12--02 20:51:29 (class:db.DBUtils)-(ERROR) update err id@28492codel:1273  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
+ 2017--12--02 20:51:45 (class:db.DBUtils)-(ERROR) update err id@43624codel:3003  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
+ 2017--12--02 20:51:45 (class:db.DBUtils)-(ERROR) update err id@43778codel:1237  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
+ 2017--12--02 20:52:25 (class:db.DBUtils)-(ERROR) update err id@68725codel:2617  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
+ 2017--12--02 20:52:53 (class:db.DBUtils)-(ERROR) update err id@82050codel:4530  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
+ 2017--12--02 20:59:00 (class:la.Main)-(INFO) la start
+ 2017--12--02 21:00:31 (class:db.DBUtils)-(ERROR) update err id@18141codel:7015  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
+ 2017--12--02 21:01:52 (class:db.DBUtils)-(ERROR) update err id@26854codel:7107  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
+ 2017--12--02 21:02:31 (class:db.DBUtils)-(ERROR) update err id@29374codel:7594  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
+ 2017--12--02 21:05:47 (class:db.DBUtils)-(ERROR) update err id@40362codel:5345  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
+ 2017--12--02 21:25:18 (class:la.Main)-(INFO) la start
+ 2017--12--02 21:32:38 (class:la.Main)-(INFO) la start
+ 2017--12--02 21:46:37 (class:db.DBUtils)-(ERROR) update err id@60045codel:13603  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
+ 2017--12--02 21:49:22 (class:db.DBUtils)-(ERROR) update err id@64928codel:9146  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
+ 2017--12--02 21:51:41 (class:db.DBUtils)-(ERROR) update err id@67738codel:10287  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
+ 2017--12--02 22:39:23 (class:la.Main)-(INFO) la start
+ 

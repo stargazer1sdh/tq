@@ -1,23 +1,159 @@
-2017--12--02 20:36:39 (class:db.DBUtils)-(ERROR) update err id@576  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
- 2017--12--02 20:40:47 (class:la.Main)-(INFO) la start
- 2017--12--02 20:41:15 (class:db.DBUtils)-(ERROR) update err id@6065codel:1764  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
- 2017--12--02 20:41:35 (class:db.DBUtils)-(ERROR) update err id@11807codel:1079  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
- 2017--12--02 20:48:41 (class:la.Main)-(INFO) la start
- 2017--12--02 20:50:15 (class:la.Main)-(INFO) la start
- 2017--12--02 20:51:29 (class:db.DBUtils)-(ERROR) update err id@28492codel:1273  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
- 2017--12--02 20:51:45 (class:db.DBUtils)-(ERROR) update err id@43624codel:3003  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
- 2017--12--02 20:51:45 (class:db.DBUtils)-(ERROR) update err id@43778codel:1237  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
- 2017--12--02 20:52:25 (class:db.DBUtils)-(ERROR) update err id@68725codel:2617  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
- 2017--12--02 20:52:53 (class:db.DBUtils)-(ERROR) update err id@82050codel:4530  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
- 2017--12--02 20:59:00 (class:la.Main)-(INFO) la start
- 2017--12--02 21:00:31 (class:db.DBUtils)-(ERROR) update err id@18141codel:7015  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
- 2017--12--02 21:01:52 (class:db.DBUtils)-(ERROR) update err id@26854codel:7107  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
- 2017--12--02 21:02:31 (class:db.DBUtils)-(ERROR) update err id@29374codel:7594  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
- 2017--12--02 21:05:47 (class:db.DBUtils)-(ERROR) update err id@40362codel:5345  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
- 2017--12--02 21:25:18 (class:la.Main)-(INFO) la start
- 2017--12--02 21:32:38 (class:la.Main)-(INFO) la start
- 2017--12--02 21:46:37 (class:db.DBUtils)-(ERROR) update err id@60045codel:13603  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
- 2017--12--02 21:49:22 (class:db.DBUtils)-(ERROR) update err id@64928codel:9146  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
- 2017--12--02 21:51:41 (class:db.DBUtils)-(ERROR) update err id@67738codel:10287  com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data too long for column 'code' at row 1
- 2017--12--02 22:39:23 (class:la.Main)-(INFO) la start
+2017--12--08 00:01:27 (class:tq.Main)-(INFO) 83136	insert
+ 2017--12--08 00:02:29 (class:tq.Main)-(INFO) 83249	insert
+ 2017--12--08 00:07:01 (class:tq.Main)-(INFO) 83137	insert
+ 2017--12--08 00:07:56 (class:tq.Main)-(INFO) 83258	insert
+ 2017--12--08 00:12:09 (class:tq.Main)-(INFO) 83138	insert
+ 2017--12--08 00:13:04 (class:tq.Main)-(INFO) 83264	insert
+ 2017--12--08 00:16:24 (class:tq.Main)-(INFO) 83035	insert
+ 2017--12--08 00:17:24 (class:tq.Main)-(INFO) 83144	insert
+ 2017--12--08 00:18:17 (class:tq.Main)-(INFO) 83268	insert
+ 2017--12--08 00:21:29 (class:tq.Main)-(INFO) 83040	insert
+ 2017--12--08 00:22:27 (class:tq.Main)-(INFO) 83145	insert
+ 2017--12--08 00:23:30 (class:tq.Main)-(INFO) 83271	insert
+ 2017--12--08 00:26:13 (class:tq.Main)-(INFO) 83046	insert
+ 2017--12--08 00:27:21 (class:tq.Main)-(INFO) 83160	insert
+ 2017--12--08 00:28:15 (class:tq.Main)-(INFO) 83290	insert
+ 2017--12--08 00:33:22 (class:tq.Main)-(INFO) 83300	insert
+ 2017--12--08 00:37:09 (class:tq.Main)-(INFO) 83167	insert
+ 2017--12--08 00:38:18 (class:tq.Main)-(INFO) 83301	insert
+ 2017--12--08 00:38:25 (class:tq.Main)-(INFO) 83309	insert
+ 2017--12--08 00:41:29 (class:tq.Main)-(INFO) 83059	insert
+ 2017--12--08 00:42:27 (class:tq.Main)-(INFO) 83181	insert
+ 2017--12--08 00:46:42 (class:tq.Main)-(INFO) 83060	insert
+ 2017--12--08 00:47:34 (class:tq.Main)-(INFO) 83186	insert
+ 2017--12--08 00:51:55 (class:tq.Main)-(INFO) 83083	insert
+ 2017--12--08 00:52:56 (class:tq.Main)-(INFO) 83204	insert
+ 2017--12--08 00:57:17 (class:tq.Main)-(INFO) 83107	insert
+ 2017--12--08 00:58:18 (class:tq.Main)-(INFO) 83205	insert
+ 2017--12--08 01:02:17 (class:tq.Main)-(INFO) 83115	insert
+ 2017--12--08 01:03:18 (class:tq.Main)-(INFO) 83211	insert
+ 2017--12--08 01:15:13 (class:tq.Main)-(INFO) 83049	insert
+ 2017--12--08 01:15:20 (class:tq.Main)-(INFO) 83161	insert
+ 2017--12--08 01:16:00 (class:tq.Main)-(INFO) 83050	insert
+ 2017--12--08 01:27:14 (class:tq.Main)-(INFO) 83084	insert
+ 2017--12--08 01:27:45 (class:tq.Main)-(INFO) 83157	insert
+ 2017--12--08 01:31:17 (class:tq.Main)-(INFO) 83313	insert
+ 2017--12--08 01:35:30 (class:tq.Main)-(INFO) 83193	insert
+ 2017--12--08 01:38:21 (class:tq.Main)-(INFO) 83207	insert
+ 2017--12--08 01:38:23 (class:tq.Main)-(INFO) 83243	insert
+ 2017--12--08 01:40:43 (class:tq.Main)-(INFO) 83135	insert
+ 2017--12--08 01:48:16 (class:tq.Main)-(INFO) 83152	insert
+ 2017--12--08 01:49:44 (class:tq.Main)-(INFO) 83154	insert
+ 2017--12--08 01:51:13 (class:tq.Main)-(INFO) 83183	insert
+ 2017--12--08 01:52:44 (class:tq.Main)-(INFO) 83064	insert
+ 2017--12--08 01:53:01 (class:tq.Main)-(INFO) 83184	insert
+ 2017--12--08 01:53:03 (class:tq.Main)-(INFO) 83192	insert
+ 2017--12--08 01:54:43 (class:tq.Main)-(INFO) 83196	insert
+ 2017--12--08 01:56:16 (class:tq.Main)-(INFO) 83078	insert
+ 2017--12--08 01:58:10 (class:tq.Main)-(INFO) 83079	insert
+ 2017--12--08 01:58:35 (class:tq.Main)-(INFO) 83218	insert
+ 2017--12--08 02:00:15 (class:tq.Main)-(INFO) 83246	insert
+ 2017--12--08 02:02:24 (class:tq.Main)-(INFO) 83092	insert
+ 2017--12--08 02:02:57 (class:tq.Main)-(INFO) 83274	insert
+ 2017--12--08 02:05:05 (class:tq.Main)-(INFO) 83093	insert
+ 2017--12--08 02:05:41 (class:tq.Main)-(INFO) 83275	insert
+ 2017--12--08 02:06:46 (class:tq.Main)-(INFO) 83113	insert
+ 2017--12--08 02:15:04 (class:tq.Main)-(INFO) 83146	insert
+ 2017--12--08 02:15:08 (class:tq.Main)-(INFO) 65381	insert
+ 2017--12--08 02:15:16 (class:tq.Main)-(INFO) 83148	insert
+ 2017--12--08 02:15:39 (class:tq.Main)-(INFO) 83149	insert
+ 2017--12--08 02:17:07 (class:tq.Main)-(INFO) 83076	insert
+ 2017--12--08 02:17:27 (class:tq.Main)-(INFO) 83209	insert
+ 2017--12--08 02:17:52 (class:tq.Main)-(INFO) 83088	insert
+ 2017--12--08 02:18:40 (class:tq.Main)-(INFO) 83118	insert
+ 2017--12--08 02:19:22 (class:tq.Main)-(INFO) 83057	insert
+ 2017--12--08 02:19:44 (class:tq.Main)-(INFO) 83282	insert
+ 2017--12--08 02:20:07 (class:tq.Main)-(INFO) 83200	insert
+ 2017--12--08 02:20:10 (class:tq.Main)-(INFO) 83266	insert
+ 2017--12--08 02:20:23 (class:tq.Main)-(INFO) 79392	insert
+ 2017--12--08 02:21:17 (class:tq.Main)-(INFO) 83308	insert
+ 2017--12--08 02:21:22 (class:tq.Main)-(INFO) 83314	insert
+ 2017--12--08 02:25:27 (class:tq.Main)-(INFO) 83051	insert
+ 2017--12--08 02:25:31 (class:tq.Main)-(INFO) 83054	insert
+ 2017--12--08 02:25:35 (class:tq.Main)-(INFO) 83065	insert
+ 2017--12--08 02:25:45 (class:tq.Main)-(INFO) 83094	insert
+ 2017--12--08 02:25:57 (class:tq.Main)-(INFO) 83125	insert
+ 2017--12--08 02:26:06 (class:tq.Main)-(INFO) 83178	insert
+ 2017--12--08 02:26:13 (class:tq.Main)-(INFO) 83179	insert
+ 2017--12--08 02:34:35 (class:tq.Main)-(INFO) 83270	insert
+ 2017--12--08 02:38:32 (class:tq.Main)-(INFO) 83127	insert
+ 2017--12--08 02:39:18 (class:tq.Main)-(INFO) 83140	insert
+ 2017--12--08 02:40:11 (class:tq.Main)-(INFO) 83237	insert
+ 2017--12--08 02:41:03 (class:tq.Main)-(INFO) 83279	insert
+ 2017--12--08 02:42:01 (class:tq.Main)-(INFO) 83306	insert
+ 2017--12--08 02:49:47 (class:tq.Main)-(INFO) 83077	insert
+ 2017--12--08 02:50:44 (class:tq.Main)-(INFO) 83120	insert
+ 2017--12--08 02:59:30 (class:tq.Main)-(INFO) 83121	insert
+ 2017--12--08 02:59:54 (class:tq.Main)-(INFO) 83201	insert
+ 2017--12--08 03:06:23 (class:tq.Main)-(INFO) 83215	insert
+ 2017--12--08 03:07:43 (class:tq.Main)-(INFO) 83223	insert
+ 2017--12--08 03:09:21 (class:tq.Main)-(INFO) 83228	insert
+ 2017--12--08 03:10:57 (class:tq.Main)-(INFO) 83239	insert
+ 2017--12--08 03:12:40 (class:tq.Main)-(INFO) 83276	insert
+ 2017--12--08 03:14:08 (class:tq.Main)-(INFO) 83286	insert
+ 2017--12--08 03:26:51 (class:tq.Main)-(INFO) 83032	insert
+ 2017--12--08 03:28:12 (class:tq.Main)-(INFO) 83069	insert
+ 2017--12--08 03:44:17 (class:tq.Main)-(INFO) 83048	insert
+ 2017--12--08 03:44:47 (class:tq.Main)-(INFO) 83150	insert
+ 2017--12--08 03:45:26 (class:tq.Main)-(INFO) 83182	insert
+ 2017--12--08 03:59:59 (class:tq.Main)-(INFO) 83063	insert
+ 2017--12--08 04:00:19 (class:tq.Main)-(INFO) 83173	insert
+ 2017--12--08 04:00:36 (class:tq.Main)-(INFO) 83256	insert
+ 2017--12--08 04:06:09 (class:tq.Main)-(INFO) 83147	insert
+ 2017--12--08 04:11:03 (class:tq.Main)-(INFO) 83123	insert
+ 2017--12--08 04:12:57 (class:tq.Main)-(INFO) 83162	insert
+ 2017--12--08 04:13:49 (class:tq.Main)-(INFO) 83213	insert
+ 2017--12--08 04:14:34 (class:tq.Main)-(INFO) 83272	insert
+ 2017--12--08 04:15:18 (class:tq.Main)-(INFO) 83304	insert
+ 2017--12--08 04:32:32 (class:tq.Main)-(INFO) 83261	insert
+ 2017--12--08 04:38:12 (class:tq.Main)-(INFO) 83285	insert
+ 2017--12--08 04:40:42 (class:tq.Main)-(INFO) 83105	insert
+ 2017--12--08 04:45:02 (class:tq.Main)-(INFO) 83109	insert
+ 2017--12--08 04:48:44 (class:tq.Main)-(INFO) 83114	insert
+ 2017--12--08 04:52:14 (class:tq.Main)-(INFO) 83133	insert
+ 2017--12--08 04:55:52 (class:tq.Main)-(INFO) 83143	insert
+ 2017--12--08 04:59:33 (class:tq.Main)-(INFO) 83203	insert
+ 2017--12--08 05:03:04 (class:tq.Main)-(INFO) 83220	insert
+ 2017--12--08 05:06:38 (class:tq.Main)-(INFO) 83250	insert
+ 2017--12--08 05:09:55 (class:tq.Main)-(INFO) 83251	insert
+ 2017--12--08 05:13:25 (class:tq.Main)-(INFO) 83257	insert
+ 2017--12--08 05:17:13 (class:tq.Main)-(INFO) 83267	insert
+ 2017--12--08 05:19:48 (class:tq.Main)-(INFO) 83033	insert
+ 2017--12--08 05:22:41 (class:tq.Main)-(INFO) 83052	insert
+ 2017--12--08 05:23:27 (class:tq.Main)-(INFO) 83292	insert
+ 2017--12--08 05:25:53 (class:tq.Main)-(INFO) 83068	insert
+ 2017--12--08 05:26:36 (class:tq.Main)-(INFO) 83307	insert
+ 2017--12--08 05:29:23 (class:tq.Main)-(INFO) 83087	insert
+ 2017--12--08 05:29:53 (class:tq.Main)-(INFO) 83315	insert
+ 2017--12--08 05:32:42 (class:tq.Main)-(INFO) 83090	insert
+ 2017--12--08 05:53:19 (class:tq.Main)-(INFO) 83131	insert
+ 2017--12--08 06:00:09 (class:tq.Main)-(INFO) 83298	insert
+ 2017--12--08 06:07:09 (class:tq.Main)-(INFO) 83311	insert
+ 2017--12--08 06:08:26 (class:tq.Main)-(INFO) 83312	insert
+ 2017--12--08 06:09:46 (class:tq.Main)-(INFO) 83177	insert
+ 2017--12--08 06:11:10 (class:tq.Main)-(INFO) 83189	insert
+ 2017--12--08 06:12:52 (class:tq.Main)-(INFO) 83190	insert
+ 2017--12--08 06:14:20 (class:tq.Main)-(INFO) 83194	insert
+ 2017--12--08 06:15:24 (class:tq.Main)-(INFO) 83038	insert
+ 2017--12--08 06:16:52 (class:tq.Main)-(INFO) 83043	insert
+ 2017--12--08 06:17:10 (class:tq.Main)-(INFO) 83234	insert
+ 2017--12--08 06:18:20 (class:tq.Main)-(INFO) 83055	insert
+ 2017--12--08 06:19:34 (class:tq.Main)-(INFO) 83072	insert
+ 2017--12--08 06:19:55 (class:tq.Main)-(INFO) 83253	insert
+ 2017--12--08 06:21:17 (class:tq.Main)-(INFO) 83073	insert
+ 2017--12--08 06:21:39 (class:tq.Main)-(INFO) 83262	insert
+ 2017--12--08 06:23:11 (class:tq.Main)-(INFO) 83081	insert
+ 2017--12--08 06:23:34 (class:tq.Main)-(INFO) 83269	insert
+ 2017--12--08 06:24:49 (class:tq.Main)-(INFO) 83126	insert
+ 2017--12--08 06:25:10 (class:tq.Main)-(INFO) 83278	insert
+ 2017--12--08 06:26:33 (class:tq.Main)-(INFO) 83129	insert
+ 2017--12--08 06:26:57 (class:tq.Main)-(INFO) 83288	insert
+ 2017--12--08 06:28:08 (class:tq.Main)-(INFO) 83141	insert
+ 2017--12--08 06:29:37 (class:tq.Main)-(INFO) 83142	insert
+ 2017--12--08 06:29:48 (class:tq.Main)-(INFO) 83299	insert
+ 2017--12--08 06:32:01 (class:tq.Main)-(INFO) 83171	insert
+ 2017--12--08 06:38:00 (class:tq.Main)-(INFO) 83202	insert
+ 2017--12--08 06:40:07 (class:tq.Main)-(INFO) 83247	insert
+ 2017--12--08 06:46:54 (class:tq.Main)-(INFO) 83176	insert
+ 2017--12--08 06:48:33 (class:tq.Main)-(INFO) 83259	insert
  
